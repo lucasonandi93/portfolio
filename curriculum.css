@@ -1,0 +1,231 @@
+html {
+    background-color: #252A2E;
+}
+
+
+.botondescaga {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    width: 950px;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.descargar-boton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.header-content {
+    align-items: center;
+    /* Centrar verticalmente los elementos en el encabezado */
+}
+
+.header-content h1 {
+    margin: auto;
+}
+
+.fotoperfil {
+    width: 33%;
+    padding: 10px;
+
+}
+
+.fotoperfil img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#nombre {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#profesion {
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}
+
+h3,
+h4 {
+    color: blue;
+}
+
+.tituloformacion {
+    padding-top: 5px;
+}
+
+.tituloformacion p {
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.tituloformacion img {
+    padding: 5px;
+    height: 30px;
+}
+
+.exprof img {
+    padding: 5px;
+    height: 30px;
+}
+
+
+/* Estilo para el aside */
+aside {
+    flex: 1;
+    padding: 20px;
+    /* Espacio interior del aside */
+}
+
+.parcours p {
+    line-height: 1.5;
+}
+
+.renglones {
+    padding-top: 10px;
+}
+
+.renglones p {
+    border-bottom: 2px solid blue;
+    padding: 5px 0px 5px 0px;
+}
+
+.renglones h4 {
+    padding-top: 10px;
+    border-bottom: 2px solid blue;
+    padding: 5px 0px 5px 0px;
+}
+
+.renglones ul {
+
+    margin-left: 0px;
+    padding-left: 15px;
+    font-size: larger;
+    line-height: 1.5;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Divide en 2 columnas de igual tamaño */
+    gap: 10px;
+    /* Espacio entre las imágenes */
+    text-align: center;
+    /* Centra el texto */
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.grid-container img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.tecnologias {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.tecnologias p {
+    font-size: larger;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.tecnologias li {
+    font-size: larger;
+}
+
+
+
+/* Estilo para el contenido principal */
+main {
+    flex: 2;
+    padding: 20px;
+}
+
+main h3 {
+    padding-top: 10px;
+    border-bottom: 2px solid blue;
+    padding: 5px 0px 5px 0px;
+}
+
+.formacion {
+    font-size: small;
+}
+
+.formacion img {
+    padding: 5px;
+    height: 30px;
+}
+
+.formacion ul {
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    /* Espacio uniforme entre las imágenes */
+    align-items: center;
+    /* Centrar verticalmente las imágenes y el texto */
+    width: 100%;
+}
+
+/* Estilos para cada div en el footer (cada sección con imagen y texto) */
+.footerfoto {
+    flex: 1;
+    /* Ocupa igualmente el espacio disponible entre las imágenes */
+    text-align: center;
+    /* Centra horizontalmente el contenido */
+    margin: 0 10px;
+    /* Espaciado horizontal entre las secciones */
+    min-height: 200px;
+}
+
+/* Estilos adicionales para las imágenes */
+.footer img {
+    width: 100px;
+    /* Establece un ancho fijo para las imágenes */
+    height: 100px;
+    /* Establece una altura fija para las imágenes */
+    display: block;
+    /* Asegura que las imágenes no tengan espacios en blanco debajo */
+    margin: 0 auto;
+    /* Centra las imágenes horizontalmente */
+}

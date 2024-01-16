@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Porfolio</title>
+</head>
+
+<body class="dark">
+
+    <!-- Menu encabezado -->
+    <div class="container-header">
+        <header>
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="fr">
+                    <img src="assets/icons/flag-fr.svg" alt="">
+                </div>
+                <div class="flags__item" data-language="es">
+                    <img src="assets/icons/flag-es.svg" alt="">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="assets/icons/flag-gb.svg" alt="">
+                </div>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()" data-section="nav-bar" data-value="inicio">ACCUEIL</a>
+                    </li>
+                    <li><a href="#aboutme" onclick="seleccionar()" data-section="nav-bar" data-value="about_me">À PROPOS
+                            DE MOI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()" data-section="nav-bar"
+                            data-value="skills">COMPÉTENCES</a></li>
+                    <li><a href="curriculum.html" onclick="seleccionar()" target="_blank" data-section="nav-bar"
+                            data-value="curriculum">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()" data-section="nav-bar"
+                            data-value="portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()" data-section="nav-bar"
+                            data-value="contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="switches">
+                <div id="toggle-theme" class="toggle-theme">
+                    <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+                    <p id="toggle-text" class="toggle-theme__text" data-section="nav-bar" data-value="dark_mode">Dark
+                        Mode</p>
+                </div>
+            </div>
+            <div class="colors">
+                <div class="colors__item colors__item--blue"></div>
+                <div class="colors__item colors__item--green"></div>
+                <div class="colors__item colors__item--purple"></div>
+                <div class="colors__item colors__item--orange"></div>
+            </div>
+        </header>
+    </div>
+    <!-- Seccion inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contain-banner">
+            <div class="container-img">
+                <img src="imagenes/lucasfoto-removebg-preview.png" alt="">
+            </div>
+            <h1>LUCAS ONANDI</h1>
+            <h2 data-section="banner-photo" data-value="description">Développeur Web et Web mobile</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/lucas-onandi/" title="LinkedIn" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:lucasonandi93@gmail.com?subject=Asunto%20del%20correo&body=Hola,%20estoy%20interesado%20en%20contactarte."
+                    target="_blank"><i class="fa-regular fa-envelope"></i></i></a>
+                <a href="https://wa.me/33764527495?text=Bonjour,%20Lucas%20je%20suis%20intéressé%20par%20vous%20contacter."
+                    title="Whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/lucasonandi93" title="GitHub" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://m.me/LucasOnandi?ref=Bonjour,%20Lucas,%20je%20suis%20intéressé%20par%20vous%20contacter."
+                    target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Sobre Mi -->
+    <section id="aboutme" class="aboutme">
+        <div class="contain-section">
+            <h2 data-section="nav-bar" data-value="about_me">À PROPOS DE MOI</h2>
+            <p data-section="a-propos" data-value="description">Je suis un Uruguayen vivant en France depuis 3 ans. Il y
+                a deux ans, j'ai commencé ma reconversion pour devenir développeur web. J'ai obtenu mon diplôme de
+                développeur web et web mobile et je suis à la recherche d'une entreprise qui me donne l'opportunité de
+                démontrer mon engagement. Actuellement, je suis en formation bac +4 à l'ESGI de Rennes et je recherche
+                un contrat d'alternance en apprentissage.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3 data-section="a-propos" data-value="personal">Données personnelles</h3>
+                    <ul>
+                        <li>
+                            <strong data-section="a-propos" data-value="birth">Date de naissance</strong>
+                            03-10-1993
+                        </li>
+                        <li>
+                            <strong data-section="a-propos" data-value="tel">Téléphone</strong>
+                            07 64 52 74 95
+                        </li>
+                        <li>
+                            <strong data-section="a-propos" data-value="email">Email</strong>
+                            lucasonandi93@gmail.com
+                        </li>
+                        <li>
+                            <strong data-section="a-propos" data-value="adresse">Adresse</strong>
+                            11 rue d'Alsace, Rennes
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3 data-section="a-propos" data-value="interes">Centres d'intérêt</h3>
+                    <div class="contain-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-dog"></i>
+                            <span data-section="a-propos" data-value="animal">Animaux</span>
+                            <p class="tooltip-box" data-section="a-propos" data-value="animal-description">Passionné par
+                                les animaux surtout les chiens.</p>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span data-section="a-propos" data-value="read">Lire</span>
+                            <p class="tooltip-box" data-section="a-propos" data-value="read-description">J'adore les
+                                thrillers judiciaires de John Grisham.</p>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-chess-knight"></i>
+                            <span data-section="a-propos" data-value="chess">Échecs</span>
+                            <p class="tooltip-box" data-section="a-propos" data-value="chess-description">Fan d'échecs
+                                et de jeux de société en général.</p>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-robot"></i>
+                            <span>IA</span>
+                            <p class="tooltip-box" data-section="a-propos" data-value="ia">Nouveau grand intérêt pour
+                                l'intelligence artificielle, les nouvelles technologies et leur impact sur la société
+                                d'aujourd'hui.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="documentsPDF/CV_Lucas_Onandi.pdf" download="CV_Lucas_Onandi.pdf" class="downloadCV">
+                <button>
+                    <span data-section="a-propos" data-value="button-text">Télécharger le CV</span> <i
+                        class="fa-solid fa-file-arrow-down"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Seccion Skills -->
+    <section class="skills" id="skills">
+        <div class="contain-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="grid-container">
+                        <img src="imagenes/logohtml.png" alt="logohtml">
+                        <img src="imagenes/logocss.png" alt="logocss">
+                        <img src="imagenes/js-logo.webp" alt="logojavascript">
+                        <img src="imagenes/nodejs-logo.png" alt="logonodejs">
+                        <img src="imagenes/logo-npm.png" alt="logonpm">
+                        <img src="imagenes/logophp.png" alt="logophp">
+                        <img src="imagenes/logojava.png" alt="logojava">
+                        <img src="imagenes/logosql.png" alt="logosql">
+                        <img src="imagenes/GitHub-Logo.png" alt="logogithub">
+                    </div>
+                    <!-- <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Plateformes et Frameworks</h3>
+                    <!-- <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="tecnologias">
+                        <div class="grid-container">
+                            <img src="imagenes/logo-vscode.png" alt="logovscode">
+                            <img src="imagenes/logo-androistudio.png" alt="logocss">
+                            <img src="imagenes/logo-sqlservermanagement.png" alt="logojavascript">
+                            <img src="imagenes/logo-eclipse.png" alt="logonodejs">
+                            <img src="imagenes/logo-symfony.png" alt="logonpm">
+                            <img src="imagenes/logo-bootstrap.png" alt="logophp">
+                            <img src="imagenes/logo-phpstorm.png" alt="logophp">
+                            <img src="imagenes/WordPress-Logo.png" alt="logophp">
+                            <img src="imagenes/logo-phpmyadmin.png" alt="logophp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="proyectos.html#project-symfony">
+                        <img src="imagenes/imagenSeries.png" alt="">
+                        <div class="overlay">
+                            <h3>Proyecto Symfony</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>PHP</li>
+                                <li>Symfony 5.4</li>
+                                <li>MySql</li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="proyectos.html#project-java">
+                        <img src="imagenes/encheres-java.png" alt="">
+                        <div class="overlay">
+                            <h3>Proyecto Java</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Java</li>
+                                <li>MySql</li>
+                            </ul>
+                    </a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="imagenes/nodeapirest.jpg" alt="">
+                <div class="overlay">
+                    <h3>ApiRest</h3>
+                    <ul>
+                        <li>NodeJs</li>
+                        <li>Npm</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="imagenes/sortir1.png" alt="">
+                <div class="overlay">
+                    <h3>Proyecto ENI-ecole</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Symfony 5.4</li>
+                        <li>MySql</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="imagenes/image-site-bde.png" alt="">
+                <div class="overlay">
+                    <h3>Proyecto WordPress</h3>
+                    <ul>
+                        <li>WordPress</li>
+                        <li>MySql</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="imagenes/imagen_de_fondo.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Mas...</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <a class="link-whatsapp"
+                        href="https://wa.me/33764527495?text=Bonjour,%20Lucas%20je%20suis%20intéressé%20par%20vous%20contacter."
+                        target="_blank"><button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button></a>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d85238.54703424255!2d-1.688443!3d48.11593400000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede2fa7d69085%3A0x40ca5cd36e4ab30!2sRennes!5e0!3m2!1sfr!2sfr!4v1705243555518!5m2!1sfr!2sfr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                11 Rue d'Alsace, Rennes
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Téléphone: 07 64 52 74 95
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: lucasonandi93@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+
+            <a href="https://www.linkedin.com/in/lucas-onandi/" title="LinkedIn" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:lucasonandi93@gmail.com?subject=Asunto%20del%20correo&body=Hola,%20estoy%20interesado%20en%20contactarte."
+                target="_blank"><i class="fa-regular fa-envelope"></i></i></a>
+            <a href="https://wa.me/33764527495?text=Bonjour,%20Lucas%20je%20suis%20intéressé%20par%20vous%20contacter."
+                title="Whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/lucasonandi93" title="GitHub" target="_blank"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="https://m.me/LucasOnandi?ref=Bonjour,%20Lucas,%20je%20suis%20intéressé%20par%20vous%20contacter."
+                target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
