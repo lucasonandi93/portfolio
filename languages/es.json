@@ -36,6 +36,15 @@
         "ia": "Nuevo gran interés en la inteligencia artificial, las nuevas tecnologías y su impacto en la sociedad actual.",
         "button-text": "Descargar CV"
     },
+    "contacto": {
+        "title": "CONTACTO",
+        "username": "Tu Nombre",
+        "tel": "Número de Teléfono",
+        "adresse": "Dirección de Correo Electrónico",
+        "subject": "Tema",
+        "message": "Mensaje",
+        "sendmessage": "Enviar Mensaje"
+    },
     "project-series": {
         "title": "PROYECTO SERIES",
         "sub-title": "Descripción del Proyecto",
@@ -125,5 +134,5 @@
         "endtext": "Para la realización de las funcionalidades descritas, utilicé las siguientes herramientas y tecnologías:",
         "photo1-npm": "(Node Package Manager) Sistema de gestión de paquetes para Node.js",
         "nextprojects": "Próximamente, más información sobre mis proyectos futuros."
-      }
+    }
 }

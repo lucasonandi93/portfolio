@@ -36,6 +36,15 @@
         "ia": "New keen interest in artificial intelligence, new technologies, and their impact on today's society.",
         "button-text": "Download CV"
     },
+    "contacto": {
+        "title": "CONTACT",
+        "username": "Your Name",
+        "tel": "Phone Number",
+        "adresse": "Email Address",
+        "subject": "Subject",
+        "message": "Message",
+        "sendmessage": "Send Message"
+    },
     "project-series": {
         "title": "SERIES PROJECT",
         "sub-title": "Project Description",
@@ -125,5 +134,5 @@
         "endtext": "To implement the described features, I used the following tools and technologies:",
         "photo1-npm": "(Node Package Manager) Package management system for Node.js",
         "nextprojects": "More information on my upcoming projects coming soon."
-      }
+    }
 }

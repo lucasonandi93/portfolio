@@ -37,6 +37,16 @@
         "button-text": "Télécharger le CV"
     },
 
+    "contacto":{
+        "title": "CONTACT",
+        "username": "Votre Prénom",
+        "tel": "Numéro de Téléphone",
+        "adresse": "Adresse e-mail",
+        "subject": "Sujet",
+        "message": "Message",
+        "sendmessage": "Envoyer le message"
+    },
+
     "project-series": {
         "title": "PROJET SERIES",
         "sub-title": "Description du Projet",

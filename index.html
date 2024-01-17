@@ -344,19 +344,19 @@
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
+            <h2 button data-section="contacto" data-value="title">CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="text" data-placeholder="contacto" data-value="username" placeholder="Votre Prénom">
+                    <input type="text" data-placeholder="contacto" data-value="tel" placeholder="Numéro de Téléphone">
+                    <input type="text" data-placeholder="contacto" data-value="adresse" placeholder="Adresse e-mail">
+                    <input type="text" data-placeholder="contacto" data-value="subject" placeholder="Sujet">
+                    <textarea name="" id="" cols="30" rows="10" data-placeholder="contacto" data-value="message" placeholder="Message"></textarea>
                     <a class="link-whatsapp"
-                        href="https://wa.me/33764527495?text=Bonjour,%20Lucas%20je%20suis%20intéressé%20par%20vous%20contacter."
-                        target="_blank"><button>
-                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        href="https://wa.me/33764527495?text=Bonjour,%20Lucas%20je%20suis%20intéressé%20pour%20vous%20contacter."
+                        target="_blank"><button data-section="contacto" data-value="sendmessage">
+                            Envoyer message<i class="fa-solid fa-paper-plane"></i>
                             <span class="overlay"></span>
                         </button></a>
                 </div>
