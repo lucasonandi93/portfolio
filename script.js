@@ -14,15 +14,15 @@ function seleccionar(){
     menuVisible = false;
 }
 
-function efectoHabilidades(){
-    var skills = document.getElementById("skills");
-    var distancia_skills = window.innerHeight = skills.getBoundingClientRect().top;
-    if(distancia_skills >= 300){
-        let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("javascript");
-        habilidades[1].classList.add("htmlcss");
-    }
-}
+// function efectoHabilidades(){
+//     var skills = document.getElementById("skills");
+//     var distancia_skills = window.innerHeight = skills.getBoundingClientRect().top;
+//     if(distancia_skills >= 300){
+//         let habilidades = document.getElementsByClassName("progreso");
+//         habilidades[0].classList.add("javascript");
+//         habilidades[1].classList.add("htmlcss");
+//     }
+// }
 
 const toggleTheme = document.getElementById('toggle-theme');
 const toggleIcon = document.getElementById('toggle-icon');
@@ -91,6 +91,6 @@ function closeModal() {
 document.querySelector('#modal-content').onclick = function(event) {
     event.stopPropagation();
 };
-window.onscroll = function(){
-    efectoHabilidades();
-}
+// window.onscroll = function(){
+//     efectoHabilidades();
+// }
