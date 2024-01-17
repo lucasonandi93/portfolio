@@ -195,6 +195,8 @@ body.dark{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
 }
 .aboutme .fila .col ul{
     list-style: none;
@@ -205,7 +207,7 @@ body.dark{
 .aboutme .fila .col ul li strong{
     display: inline-block;
     color: var(--palid-green-color);
-    width: 130px;
+    width: 50%px;
 }
 .aboutme .fila .col ul li span{
     background-color: var(--palid-green-color);
@@ -216,6 +218,7 @@ body.dark{
 .aboutme .fila .col .contain-intereses{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .aboutme .fila .col .contain-intereses .interes{
     position: relative;
@@ -627,6 +630,42 @@ body.dark{
 .link-whatsapp{
     text-decoration: none;
 }
+#modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color-modal);
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-content {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    overflow-y: scroll;
+}
+
+#modal-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#modal-content span {
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+}
 footer{
     background-color: var(--bg-color2);
     color: var(--text-color);
@@ -687,6 +726,9 @@ footer .arriba{
     nav.responsive ul li{
         border-bottom: 1px solid var(--text-color);
         padding: 10px 0;
+    }
+    .aboutme .fila .col ul li strong {
+        display: flex;
     }
    
 }
