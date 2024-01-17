@@ -144,7 +144,7 @@ body.dark{
     font-size: 15px;
     font-weight: normal;
 }
-.inicio .contain-banner .redes a{
+.redes a{
     color: var(--text-color);
     display: inline-block;
     text-decoration: none;
@@ -157,7 +157,7 @@ body.dark{
     font-size: 20px;
     transition: .3s;
 }
-.inicio .contain-banner .redes a:hover{
+.redes a:hover{
     background-color: var(--palid-green-color);
 }
 
