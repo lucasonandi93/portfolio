@@ -36,7 +36,6 @@
         "ia": "Nouveau grand intérêt pour l'intelligence artificielle, les nouvelles technologies et leur impact sur la société d'aujourd'hui.",
         "button-text": "Télécharger le CV"
     },
-
     "contacto":{
         "title": "CONTACT",
         "username": "Votre Prénom",
@@ -46,7 +45,6 @@
         "message": "Message",
         "sendmessage": "Envoyer le message"
     },
-
     "project-series": {
         "title": "PROJET SERIES",
         "sub-title": "Description du Projet",
@@ -82,7 +80,6 @@
         "back-end-sql":"Le langage SQL a été essentiel pour la création et la manipulation des tables de la base de données. J'ai rédigé des requêtes SQL pour effectuer des opérations telles que la création de tables, l'insertion de données et la récupération des informations nécessaires.",
         "back-end-php":"Quant à PHP, en tant que langage de script côté serveur, il a été utilisé pour le développement de la logique métier de l'application. PHP était responsable de la communication avec la base de données, du traitement des données et de la génération des réponses aux requêtes des utilisateurs.",
         "back-end-conclu":"En combinant ces outils et technologies, j'ai réussi à développer l'application web en respectant les bonnes pratiques de développement, tout en garantissant la sécurité, la performance et une maintenance facilitée. La partie backend de l'application Séries a ainsi pu être créée avec une interaction efficace avec la base de données."
-
     },
     "project-java":{
         "title": "PROJET ENCHERES",
@@ -137,6 +134,41 @@
         "endtext": "Pour la réalisation des fonctionnalités décrites, j'ai utilisé les outils et technologies suivants :",
         "photo1-npm": "(Node Package Manager) Système de gestion de paquets pour Node.js",
         "nextprojects": "Prochainement, plus d'informations sur mes projets."
+    },
+    "project-eni": {
+        "title": "PROJET ENI Ecole",
+        "sub-title": "Description du Projet",
+        "description": "L'objectif principal de ce projet était de développer une application destinée à faciliter la planification et l'organisation de sorties sociaux entre les membres de différents campus d'études. Pour mener à bien cette initiative, j'ai choisi d'utiliser le framework Symfony en conjonction avec une base de données MySQL. Cette approche a permis la création d'une plateforme efficace et facile à utiliser, permettant aux utilisateurs de coordonner et de participer à diverses sorties sociales.",
+        "front-end": "La partie Front-end",
+        "front-end-connexion": "Conception du formulaire de connexion :",
+        "front-end-connexion-description": "J'ai utilisé le moteur de template Twig pour créer le formulaire de connexion et défini les champs nécessaires tels que le nom d'utilisateur et le mot de passe. De plus, j'ai mis en place des contraintes de validation pour assurer une saisie correcte des informations, tout en prenant en charge la gestion des messages d'erreur correspondants afin d'améliorer l'expérience utilisateur.",
+        "front-end-form": "Conception du formulaire de création d'une nouvelle sortie :",
+        "front-end-form-description": "Dans le formulaire de création d'une nouvelle sortie, tous les champs requis sont présents, y compris la possibilité de sélectionner un lieu. Si le lieu n'est pas enregistré dans notre base de données, nous offrons la possibilité à l'utilisateur d'ajouter un nouvel endroit, que nous enregistrerons pour les sorties futures.",
+        "front-end-liste": "Affichage de la liste des sorties :",
+        "front-end-liste-description": "On présente une liste des sorties dans un tableau qui inclut toutes leurs informations correspondantes. De plus, une section de filtres a été configurée pour permettre de spécifier la recherche de sorties. Dans le tableau, sont affichées des informations détaillées ainsi que l'état de la sortie, avec la possibilité d'accéder à sa description complète. Si la sortie est ouverte, il est possible de s'inscrire directement et de participer à l'événement. Pour les organisateurs d'une sortie spécifique, la possibilité est offerte de la modifier ou de l'annuler, en ajoutant une raison justifiant ces modifications.",
+        "front-end-sesson":"Affichage du profil de l'utilisateur :",
+        "front-end-sesson-description":"L'information de l'utilisateur est affichée avec sa photo de profil. Si le profil correspond à l'utilisateur connecté, il a la possibilité de modifier ses informations.",
+        "back-end": "La partie Back-end",
+        "back-end-description": "Dans le processus de création de l'application, la partie backend implique la création et la configuration de la base de données, ainsi que la mise en place des entités, des contrôleurs et des repositories. Ces composants collaborent de manière intégrée pour faciliter l'interaction avec la base de données et gérer les fonctionnalités essentielles de l'application.",
+        "back-end-description1": "En définissant les attributs de chaque table selon les instructions fournies par Symfony, le framework génère automatiquement d'autres composants essentiels tels que des formulaires, des entités, des repositories, des getters et des setters. Bien que ces composants soient générés de manière générale, ils simplifient considérablement le processus de développement du site web.",
+        "back-end-description2": "À travers les contrôleurs, nous gérons les demandes des utilisateurs, fournissant l'information requise de manière efficace et sécurisée. Les entités générées représentent la structure de la base de données, et nous configurons les formulaires pour qu'ils interagissent correctement avec ces entités, améliorant ainsi la validation avant de les charger dans la base de données.",
+        "back-end-description3": "Dans le but d'optimiser l'interaction avec la base de données, nous implémentons des requêtes SQL efficaces qui nous permettent d'obtenir la quantité maximale d'informations avec une interaction minimale. Ces requêtes sont conçues pour assurer un fonctionnement fluide de l'application et garantir la sécurité des données, contribuant ainsi à améliorer l'expérience de l'utilisateur.",
+        "back-end-description4": "Il est important de noter que ces composants générés par Symfony nécessitent des personnalisations et des modifications pour répondre aux besoins spécifiques de l'application. Cela nous permet d'appliquer la logique métier appropriée et d'assurer le bon fonctionnement de notre application.",
+        "back-end-photo-schema-description": "Schéma de base de données relationnelle.",
+        "back-end-photo-authentification-description": "Implémentation de l'authentificateur d'utilisateur dans Symfony pour gérer la connexion en capturant les informations d'identification et en configurant divers badges tels que le jeton CSRF et l'option de mémorisation de la session, avec une redirection vers le dernier chemin d'accès ou vers un chemin prédéfini après une authentification réussie.",
+        "back-end-photo-route-description": "Exemple d'une route du contrôleur pour la récupération de la liste des sorties et l'administration de filtres.",
+        "back-end-photo-qb-description": "Exemple de requêtes SQL utilisant QueryBuilder pour la récupération d'informations dans la base de données",
+        "back-end-photo-role-description": "Exemple de gestion des rôles et des contrôles d'accès de l'application",
+        "back-end-func": "Pour la réalisation des fonctionnalités décrites, j'ai utilisé les outils et technologies suivants :",
+        "back-end-symfony":"En Symfony 5.4, j'ai utilisé le framework Symfony pour développer l'application web, profitant de sa structure robuste et de ses composants puissants qui facilitent le processus de développement.",
+        "back-end-wamp":"Pour mon environnement de développement local, j'ai opté pour Wamp64 (Windows, Apache, MySQL, PHP), exploitant ainsi le serveur web Apache, la base de données MySQL et le langage de script PHP via Wamp64.",
+        "back-end-phpadm":"Pour la gestion de la base de données MySQL, j'ai utilisé phpMyAdmin comme interface web. Cette plateforme m'a permis de créer, configurer et interagir avec les tables et les données, assurant une administration efficace de la base de données.",
+        "back-end-storm":"L'IDE PhpStorm a été mon choix pour le développement de l'application web. Cet IDE spécialement conçu pour le PHP offre des fonctionnalités avancées telles que la complétion de code, le débogage et la gestion des dépendances.",
+        "back-end-doctrine":"Dans le processus de développement, j'ai également intégré Doctrine, un ORM (Object-Relational Mapping), pour faciliter la gestion des entités et des opérations de base de données. Doctrine m'a permis de manipuler les données de manière plus intuitive en utilisant des objets plutôt que des requêtes SQL directes.",
+        "back-end-twig":"Twig : J'ai utilisé Twig comme moteur de template pour générer les vues HTML de l'application. Twig facilite la séparation de la logique métier du code HTML en utilisant des templates et des variables.",
+        "back-end-htmlcss":"HTML et CSS : J'ai utilisé HTML pour structurer le contenu des pages web et CSS pour styliser et mettre en forme les éléments visuels de l'application.",
+        "back-end-sql":"Le langage SQL a été essentiel pour la création et la manipulation des tables de la base de données. J'ai rédigé des requêtes SQL pour effectuer des opérations telles que la création de tables, l'insertion de données et la récupération des informations nécessaires.",
+        "back-end-php":"Quant à PHP, en tant que langage de script côté serveur, il a été utilisé pour le développement de la logique métier de l'application. PHP était responsable de la communication avec la base de données, du traitement des données et de la génération des réponses aux requêtes des utilisateurs.",
+        "back-end-conclu":"En combinant ces outils et technologies, j'ai réussi à développer l'application web en respectant les bonnes pratiques de développement, tout en garantissant la sécurité, la performance et une maintenance facilitée. La partie backend de l'application Séries a ainsi pu être créée avec une interaction efficace avec la base de données."
     }
-
 }

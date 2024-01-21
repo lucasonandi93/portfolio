@@ -156,7 +156,8 @@ body.dark{
 .tooltip-box2::after{
     position: absolute;
     content: "";
-    display: block;
+    display: flex;
+    text-align: center;
     border-top: 10px solid var(--palid-green-color);
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
@@ -181,4 +182,14 @@ body.dark{
 .apirestimage img{
    width: 100%;
    height: 100%;
+}
+
+#project-eni{
+    background-color: var(--bg-color);
+}
+
+#project-eni .contenido-seccion .funcionalidades .contenido .contenido-backend .photo-backend .tooltip-box2{
+    right: -315px;
+    bottom: 210px;
+    width: 820px;
 }
