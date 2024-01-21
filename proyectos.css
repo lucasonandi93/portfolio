@@ -39,7 +39,7 @@ body.dark{
 }
 .project p{
     line-height: 22px;
-    padding: 10px 0px 10px 0px;
+    padding-bottom: 10px;
 }
 .funcionalidades .contenido{
     overflow: hidden;
@@ -65,7 +65,8 @@ body.dark{
     margin-bottom: 10px;
 }
 
-.funcionalidades .contenido>p>img{
+
+.funcionalidades .contenido .image-description img{
     width: 100px;
     height: 100px;
     float: left;
