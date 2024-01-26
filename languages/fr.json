@@ -53,7 +53,7 @@
         "front-end-connexion": "Conception du formulaire de connexion :",
         "front-end-connexion-description": "J'ai utilisé le moteur de template Twig pour créer le formulaire de connexion et défini les champs nécessaires tels que le nom d'utilisateur et le mot de passe. De plus, j'ai mis en place des contraintes de validation pour assurer une saisie correcte des informations, tout en prenant en charge la gestion des messages d'erreur correspondants afin d'améliorer l'expérience utilisateur.",
         "front-end-form": "Conception du formulaire de création de nouvel utilisateur :",
-        "front-end-form-description": "J'ai utilisé les fonctionnalités de formulaire de Symfony pour créer le formulaire d'inscription des nouveaux utilisateurs.",
+        "front-end-form-description": "J'ai utilisé les fonctionnalités du formulaire de Symfony pour créer le formulaire d'inscription des nouveaux utilisateurs.",
         "front-end-liste": "Affichage de la liste des séries avec une image :",
         "front-end-liste-description": "J'ai utilisé Twig pour afficher dynamiquement la liste des séries disponibles sur le site en récupérant les données des séries à partir du backend. Pour ce faire, j'ai utilisé des entités et des requêtes Doctrine pour obtenir les informations nécessaires. Ensuite, j'ai transmis ces données au template Twig, ce qui m'a permis d'afficher les séries avec leurs images respectives de manière dynamique.",
         "front-end-sesson":"Affichage des descriptions des séries et de leurs saisons respectives :",
